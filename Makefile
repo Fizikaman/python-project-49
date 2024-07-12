@@ -6,6 +6,9 @@ install:
 brain-games:
 	poetry run brain-games
 
+brain_even:
+	poetry run brain-even
+
 build:
 	poetry build
 
