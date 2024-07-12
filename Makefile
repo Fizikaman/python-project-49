@@ -29,3 +29,6 @@ brain_nod:
 
 brain_progression:
 	poetry run brain-progression
+
+brain_is_prime:
+	poetry run brain-is-prime
