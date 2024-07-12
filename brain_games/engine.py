@@ -3,11 +3,10 @@ import prompt
 ROUNDS = 3
 
 
-def play_game(game):
-    print("Welcome to the Brain Games!")
+def play_game(game, name):
+    print('-' * 80)
     print(game.RULES)
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
+    print('-' * 80)
 
     for _ in range(ROUNDS):
         question, correct_answer = game.generate_question_and_answer()

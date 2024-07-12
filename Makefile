@@ -32,3 +32,6 @@ brain_progression:
 
 brain_is_prime:
 	poetry run brain-is-prime
+
+brain_launcher:
+	poetry run brain-launcher
