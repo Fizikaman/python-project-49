@@ -1,9 +1,11 @@
 from brain_games.games import nod
 from brain_games.engine import play_game
+from brain_games.games.launcher import welcome
 
 
 def main():
-    play_game(nod)
+    name = welcome()
+    play_game(nod, name)
 
 
 if __name__ == '__main__':
