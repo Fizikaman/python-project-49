@@ -2,10 +2,7 @@ import random
 
 from brain_games.services import is_even
 
-RULES = ('Суть игры в следующем: вам показывается случайное число.\n'
-         'Нужно ответить yes, если число чётное, или no — если нечётное.\n'
-         'Любой некорректный ввод считается ошибкой, например, n,\nи '
-         'равносилен неправильному ответу;)')
+RULES = 'Answer "yes" if the number is even, otherwise answer "no"'
 
 
 def generate_question_and_answer():
