@@ -5,7 +5,7 @@ from brain_games.engine import play_game
 
 def welcome():
     print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
+    name = prompt.string("May I have your name?\n")
     print(f"Hello, {name}!")
     return name
 
