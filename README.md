@@ -3,6 +3,29 @@
 
 <a href="https://codeclimate.com/github/Fizikaman/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/9589154bbd720aab7486/maintainability" /></a>
 
+#Asciinema records
+brain-even:
+```bash
+https://asciinema.org/a/wdYUZdV6mzkn18flPM37AyvdA
+```
+brain_calc:
+```bash
+https://asciinema.org/a/CVCu2pIqzEIkXHdlLcSjb6xGW
+```
+brain_nod:
+```bash
+https://asciinema.org/a/PeeQ4vf9kj6CUORgX2U26na45
+```
+brain_progression:
+```bash
+https://asciinema.org/a/0YEMBaqclyjG4zcfn5wmrXJgK
+```
+brain_is_prime:
+```bash
+https://asciinema.org/a/YMihDSmufdMbT8yAAN01HG0ni
+```
+
+
 # Hexlet Code
 
 A collection of educational brain games.
