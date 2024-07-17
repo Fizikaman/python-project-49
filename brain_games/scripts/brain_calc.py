@@ -7,5 +7,6 @@ def main():
     name = welcome()
     play_game(calc, name)
 
+
 if __name__ == '__main__':
     main()

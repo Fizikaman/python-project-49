@@ -25,7 +25,7 @@ def launch_game(choice, name):
     games = {
         "1": even,
         "2": calc,
-        "3": nod,
+        "3": gcd,
         "4": progression,
         "5": prime,
     }
