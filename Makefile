@@ -10,7 +10,7 @@ publish:
 	poetry publish --dry-run
 
 package-install:
-	python -m pip install --user dist/hexlet_code-1.0.0-py3-none-any.whl
+	python -m pip install dist/hexlet_code-1.0.0-py3-none-any.whl
 
 lint:
 	poetry run flake8 brain_games
@@ -30,8 +30,8 @@ brain_gcd:
 brain_progression:
 	poetry run brain-progression
 
-brain_is_prime:
-	poetry run brain-is-prime
+brain_prime:
+	poetry run brain-prime
 
 brain_launcher:
 	poetry run brain-launcher
