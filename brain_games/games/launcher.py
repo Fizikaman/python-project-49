@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games import even, calc, nod, progression, prime
+from brain_games.games import even, calc, gcd, progression, prime
 from brain_games.engine import play_game
 
 
