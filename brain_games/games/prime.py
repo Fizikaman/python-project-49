@@ -2,10 +2,7 @@ import random
 
 from brain_games.services import is_prime
 
-RULES = ("Суть игры в следующем: вам показывается "
-         "случайное число, например, 25.\n"
-         "Вы должны - 'Yes', если число простое, "
-         "в противном случае ответ 'No'.")
+RULES = 'What number is missing in the progression?'
 
 
 def generate_question_and_answer():

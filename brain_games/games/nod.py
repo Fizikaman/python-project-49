@@ -1,9 +1,7 @@
 import random
 import math
 
-RULES = ("Суть игры в следующем: вам показывается два "
-         "случайных числа, например, 25 50.\n"
-         "Вы должны вычислить и ввести наибольший общий делитель этих чисел.")
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_question_and_answer():

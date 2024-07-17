@@ -2,10 +2,7 @@ import random
 
 from brain_games.services import generate_progression
 
-RULES = ("Вам показывается ряд чисел, "
-         "который образует арифметическую прогрессию.\n"
-         "Одно число заменяется двумя точками.\n"
-         "Вам надо определить это число :).")
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def generate_question_and_answer():

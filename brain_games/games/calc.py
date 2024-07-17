@@ -1,10 +1,7 @@
 import random
 
 OPERATIONS = ['+', '-', '*']
-RULES = ('Суть игры в следующем: вам показывается'
-         ' случайное математическое выражение,\n'
-         'например, 35 + 16, которое нужно вычислить '
-         'и записать правильный ответ.')
+RULES = 'What is the result of the expression?'
 
 
 def generate_question_and_answer():
