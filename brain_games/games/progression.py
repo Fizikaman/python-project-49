@@ -2,7 +2,7 @@ import random
 
 from brain_games.services import generate_progression
 
-RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'What number is missing in the progression?'
 
 
 def generate_question_and_answer():
